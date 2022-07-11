@@ -1,0 +1,72 @@
+#uno {
+  background-color: #F06A1B;
+}
+
+#due {
+  background-color: #34814A;
+}
+
+#tre {
+  background-color: #64C500;
+}
+
+#quattro {
+  background-color: #CCD0B6;
+}
+
+#cinque {
+  background-color: #1FCB89;
+}
+
+#sei {
+  background-color: #CDFD89;
+}
+
+#sette {
+  background-color: #6BB3C9;
+}
+
+#otto {
+  background-color: #A259FC;
+}
+
+#nove {
+  background-color: #F188A3;
+}
+
+#dieci {
+  background-color: #02F1D9;
+}
+
+#undici {
+  background-color: #DF7277;
+}
+
+#dodici {
+  background-color: #4AC56F;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(227, 172, 69);
+}
+body section {
+  width: 900px;
+  height: 70px;
+  min-width: 900px;
+  min-height: 70px;
+  background-color: black;
+  border-radius: 90px;
+  display: flex;
+  padding: 20px;
+}
+body section div {
+  width: 8%;
+  height: 100%;
+  margin-left: 1%;
+  border-radius: 80px;
+}/*# sourceMappingURL=style.css.map */

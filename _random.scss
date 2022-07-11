@@ -1,0 +1,94 @@
+@function random-hex() {
+    $cifre: 0;
+    $codicehex: "#";
+
+    @while $cifre < 6 {
+        $numerigenerati: random(16) - 1;
+
+
+        @if $numerigenerati >9 {
+            @if $numerigenerati ==10 {
+                $numerigenerati: A;
+            }
+
+            @if $numerigenerati ==11 {
+                $numerigenerati: B;
+            }
+
+            @if $numerigenerati ==12 {
+                $numerigenerati: C;
+            }
+
+            @if $numerigenerati ==13 {
+                $numerigenerati: D;
+            }
+
+            @if $numerigenerati ==14 {
+                $numerigenerati: E;
+            }
+
+            @if $numerigenerati ==15 {
+                $numerigenerati: F;
+            }
+        }
+
+
+        $codicehex: str-insert($codicehex, #{$numerigenerati}, 2);
+
+
+        $cifre: $cifre + 1;
+
+    }
+
+    @return unquote($codicehex);
+}
+
+
+
+#uno {
+    background-color: random-hex();
+}
+
+#due {
+    background-color: random-hex();
+}
+
+#tre {
+    background-color: random-hex();
+}
+
+#quattro {
+    background-color: random-hex();
+}
+
+#cinque {
+    background-color: random-hex();
+}
+
+#sei {
+    background-color: random-hex();
+}
+
+#sette {
+    background-color: random-hex();
+}
+
+#otto {
+    background-color: random-hex();
+}
+
+#nove {
+    background-color: random-hex();
+}
+
+#dieci {
+    background-color: random-hex();
+}
+
+#undici {
+    background-color: random-hex();
+}
+
+#dodici {
+    background-color: random-hex();
+}
